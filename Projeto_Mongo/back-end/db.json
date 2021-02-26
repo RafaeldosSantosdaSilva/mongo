@@ -1,0 +1,122 @@
+[
+  {
+    "id_produto": 1,
+    "categoria": "Vídeo Games",
+    "descricao": "Sony PlayStation 5 2020 1TB",
+    "preco_antigo": 4999,
+    "preco_novo": 4499,
+    "imagem": "../images/produtos/ps5.jpg",
+    "alt_imagem": "PlayStation 5 Branco",
+    "ativo": true
+  },
+  {
+    "id_produto": 2,
+    "categoria": "Vídeo Games",
+    "descricao": "Microsoft Xbox Series X 2020 1TB",
+    "preco_antigo": 5089,
+    "preco_novo": 4419,
+    "imagem": "../images/produtos/xbox.jpg",
+    "alt_imagem": "Xbox series X Preto",
+    "ativo": true
+  },
+  {
+    "id_produto": 3,
+    "categoria": "Geladeiras",
+    "descricao": "Geladeira Brastemp FrostFree 540l",
+    "preco_antigo": 6389,
+    "preco_novo": 5019,
+    "imagem": "../images/produtos/geladeira-brastemp.jpg",
+    "alt_imagem": "Geladeira Brastemp Frost Free Inox",
+    "ativo": true
+  },
+  {
+    "id_produto": 4,
+    "categoria": "Geladeiras",
+    "descricao": "Geladeira Brastemp Side by Side 540l",
+    "preco_antigo": 7389,
+    "preco_novo": 6510,
+    "imagem": "../images/produtos/geladeira-brastemp2.jpg",
+    "alt_imagem": "Geladeira Brastemp Side by Side Inox",
+    "ativo": true
+  },
+  {
+    "id_produto": 5,
+    "categoria": "Celulares",
+    "descricao": "Smartphone Huawei P40 Pro white",
+    "preco_antigo": 5189,
+    "preco_novo": 4649,
+    "imagem": "../images/produtos/Huawei.webp",
+    "alt_imagem": "Celular Huawei P40 Pro branco",
+    "ativo": true
+  },
+  {
+    "id_produto": 6,
+    "categoria": "Lavadoras",
+    "descricao": "Lava e Seca Samsung 11kg Wifi",
+    "preco_antigo": 4199,
+    "preco_novo": 3959,
+    "imagem": "../images/produtos/lava-seca.jpg",
+    "alt_imagem": "Lava e seca samsung inox",
+    "ativo": true
+  },
+  {
+    "id_produto": 7,
+    "categoria": "Informática",
+    "descricao": "Monitor UltraWide 49, Samsung",
+    "preco_antigo": 8215,
+    "preco_novo": 7525,
+    "imagem": "../images/produtos/monitor-ultra.jpg",
+    "alt_imagem": "Monitor ultrawide Samsung",
+    "ativo": true
+  },
+  {
+    "id_produto": 8,
+    "categoria": "Informática",
+    "descricao": "Apple Macbook Pro 13, Retina 1TB, Samsung",
+    "preco_antigo": 16999,
+    "preco_novo": 14229,
+    "imagem": "../images/produtos/macbook.jpeg",
+    "alt_imagem": "Macbook Pro 13 polegas, Apple",
+    "ativo": true
+  },
+  {
+    "id_produto": 9,
+    "categoria": "Informática",
+    "descricao": "Notebook AlienWare i9 16GB 1TB SSD RTX3080 17,",
+    "preco_antigo": 26089,
+    "preco_novo": 24190,
+    "imagem": "../images/produtos/notebook.jpeg",
+    "alt_imagem": "Notebook Alienware preto",
+    "ativo": true
+  },
+  {
+    "id_produto": 10,
+    "categoria": "Informática",
+    "descricao": "PC Gamer AlienWare i9 32GB 2TB SSD RTX3080 24,",
+    "preco_antigo": 19389,
+    "preco_novo": 18019,
+    "imagem": "../images/produtos/pc-gamer.jpg",
+    "alt_imagem": "PC gamer Alienware com monitor e acessórios",
+    "ativo": true
+  },
+  {
+    "id_produto": 11,
+    "categoria": "Tablets",
+    "descricao": "Apple Ipad Pro 11, 256GB 4ª Geração",
+    "preco_antigo": 9999,
+    "preco_novo": 8999,
+    "imagem": "../images/produtos/ipad.jpg",
+    "alt_imagem": "Tablet Apple Ipad Pro",
+    "ativo": true
+  },
+  {
+    "id_produto": 12,
+    "categoria": "TVs",
+    "descricao": "Smart TV Ultra HD 65, Oled LG",
+    "preco_antigo": 10299,
+    "preco_novo": 9499,
+    "imagem": "../images/produtos/tv-oled.jpg",
+    "alt_imagem": "TV oled LG",
+    "ativo": true
+  }
+]

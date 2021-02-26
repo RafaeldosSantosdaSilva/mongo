@@ -1,0 +1,171 @@
+.topBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5em;
+    background-color: #1d1d1d;
+    border-radius: 0 0 1em 1em;
+}
+
+.topBar img {
+    max-width: 100%;
+    min-width: 100px;
+}
+
+.topBar a {
+    margin-top: .2rem;
+    padding: .5em;
+    transition: .5s;
+    border-radius: .5em;
+}
+
+.topBar a:hover {
+    background: #2E2E2E;
+}
+
+.active {
+    border: 1px solid #36D199;
+}
+
+.searchDiv {
+    margin-top: .5em;
+    align-items: center;
+}
+
+.searchDiv #searchBar {
+    background-color: #353535;
+    color: #ffffff;
+    text-align: center;
+    width: 20em;
+    outline: none;
+    border: none;
+    height: 2em;
+    border-radius: .5em;
+    margin: .7em 0;
+}
+
+.searchDiv #searchButton {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #36D199;
+    font-size: 1.5em;
+}
+
+/* Ícone Carrinho */
+.cartIconContainer {
+    margin-bottom: .5em;
+
+}
+
+.cartIcon {
+    background: none;
+    outline: none;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.cartIcon i {
+    font-size: 1.9em;
+    color: #36D199;
+}
+
+.cartCount {
+    color: white;
+    font-size: 1.2em;
+    background: #773ADC;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 3px;
+    left: 36px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navMenu {
+    display: flex;
+    align-items: center;
+    padding: .5em 0;
+    border-bottom: 1px solid #2E2E2E;
+}
+
+.navMenu a {
+    font-size: .9em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: .5em 1.2em;
+    transition: .5s;
+    border-radius: .5em;
+}
+
+.navMenu a:hover {
+    color: #2E2E2E;
+    background-color: #36D199;
+}
+
+.welcomeTitle {
+    font-weight: normal;
+    letter-spacing: .1em;
+    font-size: 1.3em;
+}
+
+.welcomeTitle span {
+    color: #36D199;
+}
+
+@media (min-width: 1100px) {
+    .topBar {
+        flex-direction: initial;
+        justify-content: space-between;
+        padding: 1em 5em;
+    }
+
+    .topBar img {
+        max-width: 150px;
+    }
+
+    .searchDiv #searchBar {
+        width: 15vw;
+        min-width: 280px;
+        height: 2em;
+        font-size: 1.2em;
+    }
+
+    .searchDiv #searchButton {
+        font-size: 1.5em;
+    }
+
+    .cartIconContainer {
+        margin-bottom: 0;
+    }
+
+    .cartIcon i {
+        font-size: 2em;
+    }
+
+    .cartCount {
+        font-size: 1.1em;
+        bottom: 10px;
+        left: 35px;
+    }
+
+    .navMenu a {
+        font-size: 1.3em;
+    }
+
+    .welcomeTitle {
+        font-size: 1.7em;
+        margin-bottom: -.1em;
+    }
+}
